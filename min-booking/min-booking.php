@@ -13,6 +13,10 @@
 if( !defined('ABSPATH')) exit;
 global $wpdb;
 
+function set_thirty_day_min_booking($min_days){
+  // set minimum booking for 30 days
+  $min_days = 30;
+  return $min_days;
+}
 
-
-
+add_filter('change_minumum_booking_day', 'set_thirty_day_min_booking');
