@@ -1,6 +1,9 @@
 <?php
 /**
  * Plugin Name:       Minimum Car Booking Days For Sunshine
+ * Plugin URI:        https://ysibangla.com
+ * Description:       This plugin is specially designed for sunshine automobiles
+ * therefore, it won't work for any other websites or theme.
  * Version:           1.0.1
  * Requires at least: 5.2
  * Requires PHP:      7.2
